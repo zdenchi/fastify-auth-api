@@ -7,12 +7,14 @@
     "gen": "node utils/generateKeyPair.js"
   },
   "dependencies": {
+    "@fastify/cookie": "^8.3.0",
     "@fastify/cors": "^8.3.0",
     "@fastify/env": "^4.2.0",
     "@fastify/helmet": "^10.1.1",
     "@fastify/rate-limit": "^8.0.0",
     "@prisma/client": "^4.15.0",
     "argon2": "^0.30.3",
-    "fastify": "^4.17.0"
+    "fastify": "^4.17.0",
+    "jsonwebtoken": "^9.0.0"
   }
 }

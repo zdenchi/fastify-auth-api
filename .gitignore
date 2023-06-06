@@ -148,3 +148,4 @@ dist
 data
 # /config/index.js
 /config/*.pem
+/prisma
